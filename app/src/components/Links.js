@@ -2,11 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const links = [
-  { url: "/search", text: "🔎 All" },
-  { url: "/images", text: "📸 Images" },
-  { url: "/videos", text: "📺 Videos" },
-  { url: "/news", text: "📰 News" },
+  { url: "/search", text: "All 🔎" },
+  { url: "/videos", text: "Videos 📺" },
+  { url: "/news", text: "News 📰" },
+  { url: "/facts", text: "Fact 👀" },
+  { url: "/quote", text: "Quote 😇" },
 ];
+
+// { url: "/images", text: "📸 Images" },
 
 export const Links = () => (
   <div className="flex sm:justify-around justify-between items-center mt-4">
