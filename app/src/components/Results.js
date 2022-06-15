@@ -7,9 +7,6 @@ import axios from "axios";
 import { useStateContext } from "../contexts/StateContextProvider";
 import { Loading } from "./Loading";
 
-import Facts from "./Facts";
-import Quote from "./Quote";
-
 export const Results = () => {
   //FACTS
   const [fact, setFact] = useState("");
