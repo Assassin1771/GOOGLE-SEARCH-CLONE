@@ -194,7 +194,7 @@ export const Results = () => {
             }}
             className="text-lg dark:text-blue-300 text-blue-700"
           >
-            A FUN FACT FOR YOU!!
+            A RANDOM FUN FACT FOR YOU!!
           </div>
           <br />
           <br />
@@ -221,6 +221,7 @@ export const Results = () => {
               textAlign: "center",
               fontWeight: "bolder",
               fontSize: "20px",
+              textDecoration: "underline",
             }}
             className="text-lg dark:text-blue-300 text-blue-700"
           >

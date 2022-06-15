@@ -13,7 +13,7 @@ export const Navbar = ({ setDarkTheme, darkTheme }) => (
           <span className="text-yellow-300">o</span>
           <span className="text-blue-500">g</span>
           <span className="text-green-600">l</span>
-          <span className="text-red-600">e</span>
+          <span className="text-red-600">e </span>
         </p>
       </Link>
       <button
